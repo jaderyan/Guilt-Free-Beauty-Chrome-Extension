@@ -1,0 +1,13 @@
+{
+    "short_name": "Guilt Free Beauty",
+    "name": "Guilt Free Beauty Extension",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "Guilt Free Beauty"
+    },
+    "version": "1.0",
+    "permissions": [
+      "tabs"
+  ]
+  }
