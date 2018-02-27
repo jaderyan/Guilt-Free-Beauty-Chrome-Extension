@@ -38,8 +38,15 @@ body {
     text-align: center;
 }
 
-#result {
+#brand-result {
     font-family: 'Lato';
     font-size: 0.85rem;  
     margin-top: 5px;      
+}
+
+#website-result {
+    font-family: 'Lato';
+    font-size: 0.85rem;  
+    margin-top: 5px; 
+    text-align: center;
 }

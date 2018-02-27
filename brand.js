@@ -6,8 +6,8 @@ function clickHandler(event) {
     event.preventDefault()
     const company = document.getElementById('company').value;
     fetch(`https://cruelty-free-chrome-extension.herokuapp.com/api/companies/${company}`)
-      .then(res => res.status === 404 ? document.getElementById('result').textContent = 'Boo! This is not a cruelty free brand' : res.json())
+      .then(res => res.status === 404 ? document.getElementById('brand-result').textContent = 'Boo! This is not a cruelty free brand.' : res.json())
       .then(({company}) => {
-        document.getElementById('result').textContent = `Yay! ${company.name} are cruelty free. Treat yo self!`
+        document.getElementById('brand-result').textContent = `Yay! ${company.name} are cruelty free. Treat yo self!`
       })
 }
