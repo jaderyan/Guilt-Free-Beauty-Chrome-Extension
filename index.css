@@ -1,4 +1,45 @@
 body {
     width: 500px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    background-color: #f4f4f4;
+}
+
+.title {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #565656
+}
+
+.intro {
+    font-family: 'Lato';
+    font-size: 0.85rem;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: #76323F;
+    text-decoration: none;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a:focus {
+    outline: none;
+}
+
+.search-box {
+    text-align: center;
+}
+
+#result {
+    font-family: 'Lato';
+    font-size: 0.85rem;  
+    margin-top: 5px;      
 }
